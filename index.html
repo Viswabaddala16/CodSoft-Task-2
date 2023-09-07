@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio page </title>
+    <script src="https://kit.fontawesome.com/e9f975681b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"></head>
+    <style>
+        /* Your existing CSS styles */
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            /* Modify styles for smaller screens here */
+            nav ul li {
+                margin: 10px; /* Adjust spacing for smaller screens */
+            }
+
+            .text-area {
+                flex-direction: column; /* Stack elements vertically */
+                margin: 20px auto; /* Center the text area */
+                text-align: center;
+            }
+
+            .text-area img {
+                margin-left: 0; /* Reset margin for the image */
+            }
+
+            .what-do {
+                flex-direction: column; /* Stack elements vertically */
+                margin: 20px auto; /* Center the "What I do" section */
+                text-align: center;
+            }
+
+            .what-do img {
+                width: 100%; /* Make images full width */
+                height: auto; /* Maintain aspect ratio */
+                margin: 0; /* Reset margin for images */
+            }
+
+            .proficiency {
+                flex-direction: column; /* Stack elements vertically */
+                margin: 20px auto; /* Center the proficiency section */
+                text-align: center;
+            }
+
+            .proficiency img {
+                margin-left: 0; /* Reset margin for the image */
+            }
+
+            .section-4 {
+                margin: 20px auto; /* Center the "Open Source Projects" section */
+            }
+
+            .grid-container {
+                grid-template-columns: auto; /* Single column layout */
+            }
+
+            .grid-item {
+                width: 100%; /* Make grid items full width */
+            }
+
+            .achievement-container,
+            .contact-container {
+                margin-top: 20px;
+                clear: both;
+                float: none;
+                width: 100%;
+            }
+
+            .achievement-section {
+                flex-direction: column;
+                margin: 20px auto;
+                text-align: center;
+            }
+
+            .contact-container {
+                margin-top: 20px; /* Remove the top margin to prevent overlapping */
+            }
+
+            .contact-flex {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .contact-flex div img {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+            .contact-flex div p,
+            .contact-flex div h4 {
+                margin: 10px 0;
+            }
+        }
+    </style>
+<body>
+    <section>
+        <nav>
+            <div class="sign col-5" >
+                <p style="  font-family:  Lucida Handwriting , Apple Chancery , Brush Scrip;">Viswanand</p>
+            </div>
+            <ul class="col-4">
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Open Source</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Achiements</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Talks</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="text-area col-4">
+            <div><h1>Hi all I'm Viswanand 👋</h1>
+
+                <p style="line-height: 29px;"> A Passionate  Frontend Developer 🚀 specializing in React, JavaScript, 
+                    HTML,</br> and CSS, i possess the skills to create captivating web experiences. 
+                    I expertise</br> in HTML enables you to structure content, while CSS empowers
+                    you to design </br>visually appealing interfaces
+                </p>
+                <div>
+                    <i class="fa-brands fa-square-facebook" style="background-color: blue;
+                    color: white;
+                    margin-left: .3rem;"></i>
+                    <i class="fa-brands fa-github" style="background-color: black;
+                    color: white;
+                    margin-left: .3rem;
+                    "></i>
+                    <i class="fa-brands fa-google" style="background-color: red;
+                    color: #fff; margin-left: .3rem;"></i>
+                    <i class="fa-brands fa-linkedin" style="background-color: rgb(11, 63, 184);
+                    color: white; margin-left: .3rem;"></i>
+                    <i class="fa-brands fa-x-twitter" style="background-color: black;
+                    color: white; margin-left: .3rem;"></i></br>
+                    <button style="margin-right: 20px;">CONTACT ME</button>
+                    <button >SEE MY PROFILE </button>
+                </div>
+            </div>
+            <img src="./Images/firstImage.jpg" width="450px" height="300px"/>
+        </div>
+        <div class="what-do col-3">
+            <img src="./Images/2nd Image.jpg" width="400px" height="300px"/>
+            <div>
+                <h1>What i do</h1>
+                <h4>CRAZY FRONTEND WEBDEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK</h4>
+                <p><i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-node-js"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-reacteurope"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-html5"></i>
+                                    
+                </p>
+                <p><i class="fa-solid fa-bolt" style="margin-right: 10px;"></i>Develop Highly Interactive Frontend / User Interfaces for your web and mobile applications</p> 
+                <p><i class="fa-solid fa-bolt" style="margin-right: 10px;"></i>Progressive Web Applications</p>
+                <p><i class="fa-solid fa-bolt" style="margin-right: 10px;"></i>Efective use of HTML ,CSS and JS ,REACT for building Applications</p>
+
+            </div>
+        </div>
+        <div class="proficiency col-2">
+            
+            <div>
+                <h1>Proficiency</h1>
+                <h4>Frontend / Design</h4>
+                <div></div>
+                <h4>Backend</h4>
+                <div style="background: linear-gradient(to right,blue 20%,rgb(237, 233, 233) 10%);"></div>
+                <h4>Programming</h4>
+                <div style="background: linear-gradient(to right,blue 50%,rgb(237, 233, 233) 50%);"></div>
+            </div>
+            <img src="./Images/2ndImage.jpg" width="400px" height="250px" style="margin-left: -10%;"/>
+
+        </div>
+        <div class="section-4 col-1">
+
+            <h1>Open Source Projects</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>React-dictionary-App</h3>
+                    <p>React dictonary to search words with synonyms and antonyms</p>
+                    <div class="inside-grid">
+                        <div><span class="dot" style="background-color: yellow;"></span>
+                            <p>JavaScript</p>
+                        </div>
+                        <div><span class="dot" style="text-align: center;"><i class="fa-solid fa-code-fork"></i></span>
+                            <p>1</p>
+                        </div>
+                        <div><span class="dot" ><i class="fa-regular fa-star"></i></span>
+                            <p>1</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="grid-item">
+                    <h3>React-LoginPage-Authentication</h3>
+                    <p>React Login page for validate the credentials using Api</p>
+                    <div class="inside-grid">
+                        <div><span class="dot" style="background-color: yellow;"></span>
+                            <p>JavaScript</p>
+                        </div>
+                        <div><span class="dot" style="text-align: center;"><i class="fa-solid fa-code-fork"></i></span>
+                            <p>1</p>
+                        </div>
+                        <div><span class="dot" ><i class="fa-regular fa-star"></i></span>
+                            <p>1</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="grid-item">
+                    <h3>React-Signup-Page</h3>
+                    <p>React Signup page allows the user to store the credentials</p>
+                    <div class="inside-grid">
+                        <div><span class="dot" style="background-color: yellow;"></span>
+                            <p>JavaScript</p>
+                        </div>
+                        <div><span class="dot" style="text-align: center;"><i class="fa-solid fa-code-fork"></i></span>
+                            <p>1</p>
+                        </div>
+                        <div><span class="dot" ><i class="fa-regular fa-star"></i></span>
+                            <p>1</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="grid-item">
+                    <h3>ShopCart-App-Project</h3>
+                    <p>Shop cart is E-commarce deals authentication ,products and payment</p>
+                    <div class="inside-grid">
+                        <div><span class="dot" style="background-color: yellow;"></span>
+                            <p>JavaScript</p>
+                        </div>
+                        <div><span class="dot" style="text-align: center;"><i class="fa-solid fa-code-fork"></i></span>
+                            <p>1</p>
+                        </div>
+                        <div><span class="dot" ><i class="fa-regular fa-star"></i></span>
+                            <p>1</p>
+                        </div>
+                    </div>
+                 </div>
+                
+                
+            </div>
+            <div class="center">
+                <button>More Projects</button>
+            </div>
+            
+        </div>
+        <div class="achievement-container">
+            <h1>Achiements And Certifications🏆</h1>
+            <div class="achievement-section">
+            
+                <div>
+                    <img src="./Images/codsoftLogo.png" width="150px" height="100px" style="font-size: 20px;"/>
+                    <h3>Webdevelopment Internship</h3>   
+                    <p>I got the my first Offer Letter for Web Development Internship from CodSoft.</p>
+                    <a href="#">View Offer Letter</a>
+                </div>
+                <div>
+                    <img src="./Images/Codsoft Image.jpg.jpeg" width="150px" height="100px"/>
+                    <h3>Webdevelopment Internship</h3>
+                    <p>I got the my second Offer Letter for Web Development Internship from OctaNet.</p>
+                    <a href="#">View Offer Letter</a>
+                </div>
+                <div>
+                    <img src="./Images/GreatLearnng Image.jpg.jpeg" width="130px" height="70px"/>
+                    <h3>Python Fundementals Course</h3>
+                    <p>I got Certificate for Basic Python course Fundementals for Beginners from GreatLearning.</p>
+                    <a href="#">View Certificate</a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="contact-container">
+            <h1>Reach Out to me!</h1>
+            <div class="contact-flex">
+                <div>
+                    <p style="margin-top: 15px; font-size: 15px;">DISCUSS A PROJECT OR JUST TO SAY HI MY INBOX IS OPEN FOR ALL</p>
+                    <h4>Frontend Web Developer | Open Source Projects</h4>
+                    <p><i class="fa fa-map-marker"></i> Chennai, India</p>
+                    <p>Open for opportunitie : yes</p>    
+                </div>
+                <div>
+                    <img src="./Images/profileImage.jpg.jpeg" width="200px" height="150px"/>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+         
+</html>

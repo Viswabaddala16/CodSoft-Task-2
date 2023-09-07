@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    /* border: 2px solid yellow; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* border: 3px solid green; */
+}
+nav div{
+    font-size: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    /* border: 2px solid red; */
+}
+nav ul li a {
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+/* text area styling  */
+section .text-area{
+    /* border: 2px solid red; */
+    margin: 50px auto 0px 70px;
+}
+.text-area h1,p{
+    margin: 2px auto 10px 0;
+}
+.text-area h1{
+    font-size: 30px;
+}
+.text-area div i{
+    display: inline-block;
+    border-radius: 0px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.3em 0.3em;
+    font-size: 20px;
+    border-radius: 50%;
+    
+    /* border: 2px solid blue; */
+}
+
+.text-area div button{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: .3rem .5rem .3rem .5rem;
+}
+.text-area div i,button{
+    margin: 10px auto 20px 0;
+   
+}
+.text-area{
+    display: flex;
+    
+}
+.text-area img{
+    margin-left: 10%;
+}
+
+/* what can i do page styling goes here */
+.what-do{
+    display: flex;
+    /* border: 3px solid green; */
+    margin: 0 0px 0 70px;
+    justify-content: space-around;
+    align-items: first baseline baseline;
+}
+.what-do img{
+    transition: width 2s height 2s;
+    transition-delay: 0s;
+}
+.what-do img:hover{
+    width: 500px;
+    height: 350px;
+
+}
+.what-do div p i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.what-do h1,h4{
+    margin: 20px 20px;
+}
+.what-do div p{
+    margin: 20px auto;
+}
+
+/* proficiency div styling */
+.proficiency div div{
+    width: 500px;
+    height: 15px;
+    border: 2px solid rgb(200, 188, 188);
+    background: linear-gradient(to right,blue 80%,rgb(237, 233, 233) 20%);
+    border-radius: 5px;
+}
+.proficiency {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid orange; */
+    margin: 40px 0px 0px 70px;
+}
+.proficiency div h4,h1,div{
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+.proficiency img{
+    transition: width 2s height 2s;
+    transition-delay: 0s;
+}
+.proficiency img:hover{
+    width: 450px;
+    height: 300px;
+
+}
+/* section -4 */
+.section-4{
+    position: relative;
+    /* border: 2px solid blue; */
+    margin: 70px 0 0 70px;
+}
+.section-4 h1{
+    margin-left: 10px;
+}
+.section-4 .grid-container{
+    /* border: 3px solid black; */
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+    gap: 15px;
+    margin: 10px 0 0 0px;
+    
+
+}
+.grid-container div{
+    text-align: center;
+    width: 550px;
+    font-size: 20px;
+    background-color: aqua;
+    padding: 10px 0;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 0px 5px 3px rgba(200, 188, 188);
+
+}
+.grid-item .inside-grid {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    border: none;
+    box-shadow: none;
+}
+.inside-grid div {
+    /* border: 2px solid ; */
+    height: 15px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -2px;
+    width: fit-content;
+    box-shadow: none;
+    
+
+}
+.inside-grid div p{
+    margin-left: 10px;
+    font-size: 17px;
+}
+.inside-grid div span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: -4px;
+    margin-left: 20px;  
+    position: relative; 
+}
+.inside-grid div span i{
+    margin-top: 0px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: -4px;
+    margin-left: -10px;
+
+}
+
+
+
+.center{
+    position: absolute;
+    top: 100%;
+    left: 42%;
+}
+.center button{
+    padding: 10px;
+    border: none;
+    width: 10rem;
+    background-color: rgb(62, 20, 214);
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orangered;
+}
+
+
+/* Achiement Section  */
+.achievement-container{
+    /* border: 2px solid orange; */
+    padding: 0;
+    margin-left: 5vw;
+    height: 300px;
+    margin-top: 10vh;
+    padding: 10px;
+}
+.achievement-section{
+    /* border: 2px solid; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+
+
+}
+.achievement-section h1{
+    text-align: center;
+}
+.achievement-section div p{
+    margin-left: 30px;
+}
+.achievement-section div a{
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
+.achievement-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid green; */
+    height: 250px;
+    width: 32vw;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px rgb(200, 188, 188);
+}
+/* contact section */
+.contact-container{
+    margin-left: 5vw;
+    margin-top: 5vh;
+    /* border: 2px solid blue; */
+}
+.contact-container h1{
+    margin-top: 2px;
+    
+}
+.contact-container div p,h4 {
+    margin: 0 0 10px 0;
+}
+
+
+.contact-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 17vh;
+    
+}
+
+.contact-flex div img{
+    margin-left: 20vw;
+    margin-top: -4vh;
+    border-radius: 50%;
+    /* border: 4px solid blue; */
+}
+/* For mobile phones: */
+
+  
+ 
